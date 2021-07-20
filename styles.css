@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('images/bg-intro-mobile.png');
+	background-repeat: no-repeat;
+	background-color: hsl(0, 100%, 74%);
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+
+body,
+h1,
+p {
+	margin: 0;
+}
+body{
+	margin-bottom: 12%;
+}
+
+h1{
+	line-height: 1.2;
+	font-weight: 700;
+	padding: 3em 0 1em 0;
+}
+
+h6, p{
+	line-height: 1.6;
+	font-weight: 400;
+}
+
+h6{
+	color: hsl(246, 25%, 77%);
+}
+
+.heading p{
+	padding-bottom: 3em;
+	margin-inline: 5%;
+}
+.container{
+	padding: 3rem 0;
+	margin-inline: auto;
+	width: min(90%, 70.5rem);
+}
+.card{
+	padding: 20px;
+    background-color: hsl(248, 32%, 49%);
+    color: #fff;
+    margin-inline: 20px;
+    border-radius: 20px;
+    box-shadow: 0 6px 0 0 hsl(249, 10%, 26%, 0.3);
+}
+#fname, #lname, #email, #pwd{
+	padding: 1.3em 4em;
+    margin: 10px;
+    border: solid 1px hsla(246, 25%, 77%, 0.9);
+    border-radius: 5px;
+}
+.free{
+	font-weight: 600;
+}
+.second{
+	padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 6px 0 0 hsl(249deg 10% 26% / 30%);
+}
+.btn{
+	padding: 1.3em 3.4em;
+    margin-top: 7px;
+    border-radius: 5px;
+    background-color: hsl(154, 59%, 51%);
+    border: 1px;
+    box-shadow: 0 4px 0 0 hsl(154deg 39% 51%);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #fff;
+}
+.text{
+	margin-top: 13px;
+}
+.terms{
+	color: hsl(0, 100%, 74%);
+	font-weight: 600;
+}
+.attribution { 
+	font-size: 11px;
+	text-align: center; 
+}
+.attribution a {
+ color: hsl(228, 45%, 44%); 
+}
