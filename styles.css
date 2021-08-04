@@ -90,6 +90,7 @@ h6{
 }
 .text{
 	margin-top: 13px;
+	padding: 0 3.2em;
 }
 .terms{
 	color: hsl(0, 100%, 74%);
@@ -142,7 +143,7 @@ h6, p{
 h6{
 	color: hsl(246, 25%, 77%);
 }
-.first, .flex, .second, .card {
+.first, .flex {
 	width: 100%;
 }
 .heading {
@@ -164,17 +165,20 @@ h6{
     background-color: hsl(248, 32%, 49%);
     color: #fff;
     margin-inline: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0 6px 0 0 hsl(249, 10%, 26%, 0.3);
 }
 #fname, #lname, #email, #pwd{
-	padding: 1.3em 4em;
+	padding: 1.3em 19em 1.3em 2em;
     margin: 10px;
     border: solid 1px hsla(246, 25%, 77%, 0.9);
     border-radius: 5px;
 }
 .free{
 	font-weight: 600;
+}
+#form{
+	padding-top: 1.2em;
 }
 .second{
 	padding: 5px 3px;
@@ -184,7 +188,7 @@ h6{
     box-shadow: 0 6px 0 0 hsl(249deg 10% 26% / 30%);
 }
 .btn{
-	padding: 1.3em 3.4em;
+	padding: 1.3em 9.815em;
     margin-top: 7px;
     border-radius: 5px;
     background-color: hsl(154, 59%, 51%);
@@ -195,8 +199,11 @@ h6{
     font-weight: bold;
     color: #fff;
 }
+.claim{
+	padding-bottom: 1em;
+}
 .text{
-	margin-top: 13px;
+	margin-top: 1.625em;
 }
 .terms{
 	color: hsl(0, 100%, 74%);
