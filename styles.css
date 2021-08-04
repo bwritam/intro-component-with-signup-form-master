@@ -58,7 +58,7 @@ h6{
     box-shadow: 0 6px 0 0 hsl(249, 10%, 26%, 0.3);
 }
 .card p {
-	padding: 0 1em;
+	padding: 0 2em;
 }
 #fname, #lname, #email, #pwd{
 	padding: 1.3em 4em;
