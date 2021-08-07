@@ -199,6 +199,11 @@ h6{
     font-weight: bold;
     color: #fff;
 }
+.btn:hover{
+	cursor: pointer;
+	background-color: hsla(154, 59%, 51%, 0.7);
+	box-shadow: 0 4px 0 0 hsla(154, 39%, 51%, 0.8);
+}
 .claim{
 	padding-bottom: 1em;
 }
@@ -215,5 +220,13 @@ h6{
 }
 .attribution a {
  color: hsl(228, 45%, 44%); 
+}
+
+/* ---------------JS Class------------- */
+.text-one, .text-two, .text-three, .text-four {
+		font-family: "Josefin Sans", sans-serif;
+		font-weight: 600;
+		font-size: 10px;
+		color: hsla(0, 93%, 68%, 0.9);
 }
 }
