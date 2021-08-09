@@ -60,7 +60,7 @@ h6{
 .card p {
 	padding: 0 2em;
 }
-#fname, #lname, #email, #pwd{
+.fname, .lname, .email, .pwd{
 	padding: 1.3em 4em;
     margin: 10px;
     border: solid 1px hsla(246, 25%, 77%, 0.9);
