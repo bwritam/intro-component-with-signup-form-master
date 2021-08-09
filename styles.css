@@ -101,7 +101,7 @@ h6{
 	text-align: center; 
 }
 .attribution a {
- color: hsl(228, 45%, 44%); 
+ 	color: hsl(228, 45%, 44%); 
 }
 }
 
@@ -168,11 +168,19 @@ h6{
     border-radius: 10px;
     box-shadow: 0 6px 0 0 hsl(249, 10%, 26%, 0.3);
 }
-#fname, #lname, #email, #pwd{
-	padding: 1.3em 19em 1.3em 2em;
-    margin: 10px;
+.fname, .lname, .email, .pwd{
+	padding: 1.3em 19em 1.3em 3em;
+    margin: 10px 10px 3px 10px;
     border: solid 1px hsla(246, 25%, 77%, 0.9);
     border-radius: 5px;
+}
+.text-one, .text-two, .text-three, .text-four {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 0.625rem;
+	color: hsla(0, 93%, 68%, 0.9);
+	float: right;
+	padding: 0.250em 3.625em 0.325em 0;
 }
 .free{
 	font-weight: 600;
@@ -188,7 +196,7 @@ h6{
     box-shadow: 0 6px 0 0 hsl(249deg 10% 26% / 30%);
 }
 .btn{
-	padding: 1.3em 9.815em;
+	padding: 1.3em 10.5em;
     margin-top: 7px;
     border-radius: 5px;
     background-color: hsl(154, 59%, 51%);
@@ -205,6 +213,8 @@ h6{
 	box-shadow: 0 4px 0 0 hsla(154, 39%, 51%, 0.8);
 }
 .claim{
+	padding-left: 0.9em;
+    padding-right: 0.825em;
 	padding-bottom: 1em;
 }
 .text{
@@ -219,14 +229,18 @@ h6{
 	text-align: center; 
 }
 .attribution a {
- color: hsl(228, 45%, 44%); 
+ 	color: hsl(228, 45%, 44%); 
 }
 
 /* ---------------JS Class------------- */
-.text-one, .text-two, .text-three, .text-four {
-		font-family: "Josefin Sans", sans-serif;
-		font-weight: 600;
-		font-size: 10px;
-		color: hsla(0, 93%, 68%, 0.9);
+.error-image {
+	padding: 1.3em 19em 1.3em 3em;
+    margin: 10px 10px 3px 10px;
+    border-radius: 5px;
+    border: 2px solid hsla(0, 93%, 68%, 0.9);
+	background-image: url('images/icon-error.svg');
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	background-size: 20px 20px;
 }
 }
