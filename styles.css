@@ -82,7 +82,7 @@ h6{
 	font-size: 0.625rem;
 	color: hsla(0, 93%, 68%, 0.9);
 	float: right;
-	padding: 0.250em 3.625em 0.325em 0;
+	padding: 0.250em 1.625em 0.325em 0;
 }
 ::placeholder {
 	font-family: "Poppins", sans-serif;
