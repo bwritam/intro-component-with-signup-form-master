@@ -224,6 +224,10 @@ h6{
 	color: hsl(0, 100%, 74%);
 	font-weight: 600;
 }
+::placeholder {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+}
 .attribution { 
 	font-size: 11px;
 	text-align: center; 
@@ -242,5 +246,10 @@ h6{
 	background-repeat: no-repeat;
 	background-position: 95% 50%;
 	background-size: 20px 20px;
+}
+.change-color::placeholder {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	color: hsla(0, 93%, 68%, 0.9);
 }
 }
